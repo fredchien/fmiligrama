@@ -1,0 +1,25 @@
+{
+  "name": "fmiligrama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredchien/fmiligrama.git"
+  },
+  "author": "Frederic Chien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredchien/fmiligrama/issues"
+  },
+  "homepage": "https://github.com/fredchien/fmiligrama#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}

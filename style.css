@@ -1,0 +1,108 @@
+/******************** FONTS ********************/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600");
+/******************** VARS ********************/
+/******************** BASE ********************/
+* { outline: transparent; }
+
+html, body { color: #666666; min-width: 320px; font-family: "Montserrat", sans-serif; font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", sans-serif; margin-bottom: 30px; margin-top: 0; font-weight: 800; }
+
+h1 { font-size: 60px; }
+
+h2 { font-size: 48px; }
+
+h3 { font-size: 36px; }
+
+h6 { font-size: 16px; }
+
+a { color: #666666; text-decoration: none !important; transition: color .2s ease-in-out, background .2s ease-in-out; }
+
+a:hover { color: #00ded5; }
+
+p { line-height: 25px; font-family: "Montserrat", sans-serif; font-weight: 300; }
+
+p:last-child { margin-bottom: 0; }
+
+section { padding: 30px 0; }
+
+img { max-width: 100%; height: auto; }
+
+::-webkit-input-placeholder { font: 14px verdana, arial, sans-serif; }
+
+:-moz-placeholder { font: 14px verdana, arial, sans-serif; }
+
+::-moz-placeholder { font: 14px verdana, arial, sans-serif; }
+
+:-ms-input-placeholder { font: 14px verdana, arial, sans-serif; }
+
+/******************** CLASSES ********************/
+.nopadding { padding: 0; }
+
+.row.rowflex { display: flex; }
+
+@media (min-width: 768px) { .row.rowflex-sm { display: flex; } }
+
+@media (min-width: 992px) { .row.rowflex-md { display: flex; } }
+
+@media (min-width: 1200px) { .row.rowflex-lg { display: flex; } }
+
+figure.fit { background-repeat: no-repeat; background-position: center center; background-size: cover; width: 100%; height: 0; padding-bottom: 100%; overflow: hidden; }
+
+.text-center { text-align: center; }
+
+.clear { clear: both; }
+
+.no-padding { padding: 0 !important; }
+
+.btn-verde { background: #0ca614; border-radius: 20px; color: #fff; text-transform: uppercase; border: none; padding: 10px 20px; font-size: 20px; }
+
+.btn-verde:hover { background: #ff0064; color: #fff; }
+
+/**************** INICIO crio ****************/
+/******************** BANNER ********************/
+.banner { padding: 0; }
+
+.banner .carrossel .logo { position: absolute; z-index: 3; left: 10%; top: 5%; }
+
+.banner .carrossel .owl-dots { position: absolute; width: 100%; text-align: right; }
+
+.banner .carrossel .owl-dots .owl-dot { background: #fff; display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; margin-right: 12px; transition: background .2s ease-in-out; }
+
+.banner .carrossel .owl-dots .owl-dot.active { background: #74ae45; }
+
+/******************** SESSAO 1 ********************/
+.section-2 { padding-bottom: 0; }
+
+.section-2 ul { text-align: center; padding: 0; z-index: 2; position: relative; }
+
+.section-2 ul li { list-style: none; display: inline-block; padding: 0; width: 18%; transition: 0.7s; }
+
+.section-2 ul li:hover { width: 20%; }
+
+.section-2 ul .active { width: 20%; }
+
+.section-2 ul .active:after { content: url("assets/img/ativo.png"); position: absolute; bottom: -20px; }
+
+.section-2 .tab-content { position: relative; bottom: 50px; }
+
+.section-2 .box-texto { padding-top: 400px; padding-bottom: 40px; }
+
+.section-2 .tit { margin-bottom: 30px; opacity: 0.5; }
+
+.section-2 .assinatura { opacity: 0.5; width: 35%; }
+
+.section-2 .btn-white { border: solid 5px white; border-radius: 0; padding: 15px; color: white; text-transform: uppercase; text-transform: uppercase; margin-top: 140px; }
+
+.section-2 .btn-white:hover { background: white; color: #000; }
+
+/******************** RESPONSIVO ********************/
+@media (max-width: 767px) { /***** BASE *****/
+  h1 { font-size: 42px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 28px; }
+  h6 { font-size: 16px; }
+  .sucesso-footer { text-align: center !important; }
+  .sucesso-body { background-size: auto; } }
+
+/*# sourceMappingURL=style.css.map */

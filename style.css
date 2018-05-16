@@ -65,9 +65,9 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .banner .carrossel .logo { position: absolute; z-index: 3; left: 10%; top: 5%; }
 
-.banner .carrossel .owl-dots { position: absolute; width: 100%; text-align: right; }
+.banner .carrossel .owl-dots { position: absolute; width: 100%; text-align: center; bottom: 10%; }
 
-.banner .carrossel .owl-dots .owl-dot { background: #fff; display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; margin-right: 12px; transition: background .2s ease-in-out; }
+.banner .carrossel .owl-dots .owl-dot { background: transparent; display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #74ae45; margin-right: 12px; transition: background .2s ease-in-out; }
 
 .banner .carrossel .owl-dots .owl-dot.active { background: #74ae45; }
 
@@ -102,11 +102,11 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .section-3 .box-esq { padding: 85px; height: 470px; background: #fff; }
 
-.section-3 .box-esq p { color: #74ae45; font-size: 53px; line-height: 70px; }
+.section-3 .box-esq p { color: #74ae45; font-size: 47px; line-height: 70px; }
 
 .section-3 .box-dir { padding: 85px; height: 470px; background: #f6f6f6; }
 
-.section-3 .box-dir p { color: #f88700; font-size: 33px; line-height: 66px; }
+.section-3 .box-dir p { color: #f88700; font-size: 22px; line-height: 66px; }
 
 .section-3 .box-dir .btn-orange { border: solid 5px #f88700; border-radius: 0; color: #f88700; text-transform: uppercase; padding: 15px 120px; font-weight: 700; }
 
@@ -114,13 +114,26 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .banner-final { position: relative; bottom: 80px; padding: 0; background: #949494; }
 
+.banner-final .owl-dots { position: absolute; width: 100%; text-align: center; bottom: 5%; }
+
+.banner-final .owl-dots .owl-dot { background: transparent; display: inline-block; width: 16px; height: 16px; border-radius: 50%; border: 2px solid #74ae45; margin-right: 12px; transition: background .2s ease-in-out; }
+
+.banner-final .owl-dots .owl-dot.active { background: #74ae45; }
+
 footer { color: #fff; }
+
+footer .logofooter { margin: 0px auto; display: block; width: 180px; margin-top: 30px; }
 
 /******************** RESPONSIVO ********************/
 @media (max-width: 767px) { /***** BASE *****/
   h1 { font-size: 42px; }
   h2 { font-size: 36px; }
   h3 { font-size: 28px; }
-  h6 { font-size: 16px; } }
+  h6 { font-size: 16px; }
+  .section-3 .box-dir p { font-size: 15; line-height: 33px; }
+  .section-3 .box-dir .btn-orange { padding: 15px 60px; }
+  .section-3 .box-esq p { font-size: 27px; }
+  footer .logofooter { margin-bottom: 30px; }
+  .footer p { margin-bottom: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

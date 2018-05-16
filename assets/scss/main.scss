@@ -21,7 +21,7 @@ $Mont: 'Montserrat', sans-serif;
 html, body {
     color: $text;
     min-width: 320px;
-
+    background: #949494;
     font-family: $Mont;
     font-size: 16px;
 
@@ -161,10 +161,14 @@ figure.fit {
     
   }
 }
-
+.section-1{
+  background: #fff;
+  padding-bottom: 60px;
+}
 /******************** SESSAO 1 ********************/
 .section-2{
   padding-bottom: 0;
+  padding-top: 0;
   ul{
     text-align: center;
     padding: 0;
@@ -220,7 +224,52 @@ figure.fit {
   }
 }
 
-
+.section-3{
+  position: relative;
+  bottom: 80px;
+  padding-bottom: 0;
+  .box-esq{
+    padding: 85px;
+    height: 470px;
+    background: #fff;
+    p{
+      color: #74ae45;
+      font-size: 53px;
+      line-height: 70px;
+    }
+  }
+  .box-dir{
+    padding: 85px;
+    height: 470px;
+    background: #f6f6f6;
+    p{
+      color: #f88700;
+      font-size: 33px;
+      line-height: 66px;
+    }
+    .btn-orange{
+      border: solid 5px #f88700;
+      border-radius: 0;
+      color: #f88700;
+      text-transform: uppercase;
+      padding: 15px 120px;
+      font-weight: 700;
+      &:hover{
+        background: #f88700;
+        color: #fff;
+      }
+    }
+  }
+}
+.banner-final{
+  position: relative;
+  bottom: 80px;
+  padding: 0;
+  background: #949494;
+}
+footer{
+  color: #fff;
+}
 /******************** RESPONSIVO ********************/
 
 // XS
@@ -232,12 +281,7 @@ figure.fit {
     h2 { font-size: 36px; }
     h3 { font-size: 28px; }
     h6 { font-size: 16px; }
-    .sucesso-footer{
-      text-align: center !important;
-    }
-    .sucesso-body{
-      background-size: auto;
-    }
+    
 }
 
 // SM

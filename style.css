@@ -4,7 +4,7 @@
 /******************** BASE ********************/
 * { outline: transparent; }
 
-html, body { color: #666666; min-width: 320px; font-family: "Montserrat", sans-serif; font-size: 16px; }
+html, body { color: #666666; min-width: 320px; background: #949494; font-family: "Montserrat", sans-serif; font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", sans-serif; margin-bottom: 30px; margin-top: 0; font-weight: 800; }
 
@@ -71,8 +71,10 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .banner .carrossel .owl-dots .owl-dot.active { background: #74ae45; }
 
+.section-1 { background: #fff; padding-bottom: 60px; }
+
 /******************** SESSAO 1 ********************/
-.section-2 { padding-bottom: 0; }
+.section-2 { padding-bottom: 0; padding-top: 0; }
 
 .section-2 ul { text-align: center; padding: 0; z-index: 2; position: relative; }
 
@@ -96,13 +98,29 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 .section-2 .btn-white:hover { background: white; color: #000; }
 
+.section-3 { position: relative; bottom: 80px; padding-bottom: 0; }
+
+.section-3 .box-esq { padding: 85px; height: 470px; background: #fff; }
+
+.section-3 .box-esq p { color: #74ae45; font-size: 53px; line-height: 70px; }
+
+.section-3 .box-dir { padding: 85px; height: 470px; background: #f6f6f6; }
+
+.section-3 .box-dir p { color: #f88700; font-size: 33px; line-height: 66px; }
+
+.section-3 .box-dir .btn-orange { border: solid 5px #f88700; border-radius: 0; color: #f88700; text-transform: uppercase; padding: 15px 120px; font-weight: 700; }
+
+.section-3 .box-dir .btn-orange:hover { background: #f88700; color: #fff; }
+
+.banner-final { position: relative; bottom: 80px; padding: 0; background: #949494; }
+
+footer { color: #fff; }
+
 /******************** RESPONSIVO ********************/
 @media (max-width: 767px) { /***** BASE *****/
   h1 { font-size: 42px; }
   h2 { font-size: 36px; }
   h3 { font-size: 28px; }
-  h6 { font-size: 16px; }
-  .sucesso-footer { text-align: center !important; }
-  .sucesso-body { background-size: auto; } }
+  h6 { font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

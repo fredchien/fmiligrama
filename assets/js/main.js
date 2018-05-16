@@ -43,4 +43,17 @@ $(document).ready(function() {
             992: { items: 1, },
         },
     });
+    $("#home-banner-carousel-final").owlCarousel({
+        items: 1,
+        nav: false,
+        dots: true,
+        loop: true,
+
+        responsive: {
+            0: { items: 1, },
+            450: { items: 1, },
+            768: { items: 1, },
+            992: { items: 1, },
+        },
+    });
 });
